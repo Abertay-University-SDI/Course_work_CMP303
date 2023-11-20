@@ -19,10 +19,27 @@
     <Filter Include="Client">
       <UniqueIdentifier>{734286b9-e4a9-4598-8472-a55d3f9d0b6f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{bbb45d5e-9117-45ce-8483-4e83f2beca3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ball.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>Game</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
