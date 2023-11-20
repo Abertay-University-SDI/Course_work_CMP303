@@ -1,2 +1,11 @@
 ﻿  main.cpp
-  Course_work_CMP303.vcxproj -> D:\Abertay\Year 3\Term 1\CMP303 Network System for Game Dev\Course_work\Course_work_CMP303\x64\Debug\Course_work_CMP303.exe
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Window::Window(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0Window@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Window::~Window(void)" (__imp_??1Window@sf@@UEAA@XZ) referenced in function main
+D:\Abertay\Year 3\Term 1\CMP303 Network System for Game Dev\Course_work\Course_work_CMP303\SFML\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Abertay\Year 3\Term 1\CMP303 Network System for Game Dev\Course_work\Course_work_CMP303\SFML\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Abertay\Year 3\Term 1\CMP303 Network System for Game Dev\Course_work\Course_work_CMP303\SFML\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Abertay\Year 3\Term 1\CMP303 Network System for Game Dev\Course_work\Course_work_CMP303\SFML\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Abertay\Year 3\Term 1\CMP303 Network System for Game Dev\Course_work\Course_work_CMP303\x64\Debug\Course_work_CMP303.exe : fatal error LNK1120: 5 unresolved externals
